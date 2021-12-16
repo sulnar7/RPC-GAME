@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "icon" href = 
+"./assets/images/s.png" 
+        type = "image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="./assets/js/index.js"></script>
+</head>
+<body style="background-color: #777;">
+    <div class="container text-center mt-3 bg-light text-black rounded p-3" >
+        <h1>Rock Paper Scissors</h1>
+        <p style="color: silver;">Please select one of the 'R S P' (press) buttons to play</p>
+    </div>
+    <div class="container">
+    <div class="row">
+        
+        <div  class="col-5 text-center mt-3 bg-light text-black rounded p-5">
+            
+            <h1 id="me" class="text-success"></h1>
+            <h1 id="mel" class="text-danger"></h1>
+            
+            <h1>Player 1 ME</h1>
+            <h2 id="win"></h2>
+
+        </div>
+       
+        <div class="col-1 ml-5 text-center  text-white mt-5 " ><h1 style="line-height: 90px; font-weight: 100;font-size: 70px;">VS</h1></div>
+        <div  class="col-5 text-center mt-3 bg-light text-black rounded p-5 ml-auto">
+            <h1 id="cmp" class="text-success"></h1>
+            <h1 id="cmpl" class="text-danger"></h1>
+
+            <h1>Player 2 CMP</h1>
+            <h2 id="lose"></h2>
+
+        </div>
+        <div id="meCh" class="col-5 text-center mt-3 bg-light text-black rounded p-5">
+            
+            <h2 id="choose"></h2>
+            <img id="img" style="width: 100%;" src="" alt="">
+
+        </div>
+       
+ 
+        <div id="cmpCh" class="col-5 text-center mt-3 bg-light text-black rounded p-5 ml-auto">
+            
+            <h2 id="cChoose"></h2>
+            <img id="cimg" style="width: 100%;" src="" alt="">
+
+
+        </div>
+    </div>
+</div>
+    <div></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
