@@ -1,1 +1,1 @@
-# RPC-GAME
+# RPS-GAME
